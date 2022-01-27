@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -20,5 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void onclickHandler(View view) {
         Toast.makeText(this, "logged in", Toast.LENGTH_SHORT).show();
+        Intent mIntent;
+        mIntent  = new Intent(MainActivity.this,MainActivity1.class);
+        startActivity(mIntent);
     }
 }

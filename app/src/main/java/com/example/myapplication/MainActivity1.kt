@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -12,7 +13,8 @@ class MainActivity1 : AppCompatActivity() {
     }
 
     fun onclickListner(view: View) {
-        Toast.makeText(this,"sending",Toast.LENGTH_SHORT).show()
+        var intent = Intent(this,MainActivity::class.java)
+        startActivity(intent)
 
     }
 }
