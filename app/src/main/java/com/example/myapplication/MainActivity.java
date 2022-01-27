@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public void onclickListner(View view) {
         Toast.makeText(this, "logging in", Toast.LENGTH_SHORT).show();
     }
+
+    public void onclickHandler(View view) {
+        Toast.makeText(this, "logged in", Toast.LENGTH_SHORT).show();
+    }
 }

@@ -46,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:text="Button"
+        android:onClick="onclickHandler"
         app:layout_constraintBaseline_toBaselineOf="@+id/button"
         app:layout_constraintStart_toEndOf="@+id/button" />
 
